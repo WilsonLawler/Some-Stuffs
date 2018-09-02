@@ -1,0 +1,77 @@
+table {
+    border-collapse: collapse;
+    width: 500px;
+    height: 600px;
+}
+tr {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding: 0;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    width: 125px;
+    padding: 0;
+    
+}
+
+tr.r1 td:nth-of-type(1) {flex-grow: 4; background-color: rgb(22, 20, 18); color: white; text-align: right;}
+
+
+tr.r2 td:nth-of-type(1) {flex-grow: 2; background-color: rgb(196, 203, 206); }
+tr.r2 td:nth-of-type(1):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r2 td:nth-of-type(2) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r2 td:nth-of-type(2):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r2 td:nth-of-type(3) {flex-grow: 1; background-color: rgb(224, 147, 47); }
+tr.r2 td:nth-of-type(3):hover {background-color: rgb(224, 147, 47, 0.8);}
+
+tr.r3 td:nth-of-type(1) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r3 td:nth-of-type(1):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r3 td:nth-of-type(2) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r3 td:nth-of-type(2):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r3 td:nth-of-type(3) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r3 td:nth-of-type(3):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r3 td:nth-of-type(4) {flex-grow: 1; background-color: rgb(224, 147, 47); }
+tr.r3 td:nth-of-type(4):hover {background-color: rgb(224, 147, 47, 0.8);}
+
+tr.r4 td:nth-of-type(1) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r4 td:nth-of-type(1):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r4 td:nth-of-type(2) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r4 td:nth-of-type(2):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+
+tr.r4 td:nth-of-type(3) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r4 td:nth-of-type(3):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r4 td:nth-of-type(4) {flex-grow: 1; background-color: rgb(224, 147, 47); }
+tr.r4 td:nth-of-type(4):hover {background-color: rgb(224, 147, 47, 0.8);}
+
+
+tr.r5 td:nth-of-type(1) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r5 td:nth-of-type(1):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r5 td:nth-of-type(2) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r5 td:nth-of-type(2):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r5 td:nth-of-type(3) {flex-grow: 1; background-color: rgb(196, 203, 206); }
+tr.r5 td:nth-of-type(3):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+tr.r5 td:nth-of-type(4) {flex-grow: 1; background-color: rgb(224, 147, 47); }
+tr.r5 td:nth-of-type(4):hover {background-color: rgb(224, 147, 47, 0.8);}
+
+tr.r6 td:nth-of-type(1) {flex-grow: 3; background-color: rgb(196, 203, 206); }
+tr.r6 td:nth-of-type(1):hover {background-color: rgb(196, 203, 206, 0.8);}
+
+
+tr.r6 td:nth-of-type(2) {flex-grow: 1; background-color: rgb(224, 147, 47); }
+tr.r6 td:nth-of-type(2):hover {background-color: rgb(224, 147, 47, 0.8);}
